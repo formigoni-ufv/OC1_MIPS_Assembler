@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libmain.exe.a  CMakeFiles/main.exe.dir/main.c.obj CMakeFiles/main.exe.dir/intrucoesmips.c.obj CMakeFiles/main.exe.dir/simuladormips.c.obj CMakeFiles/main.exe.dir/auxiliary.c.obj
+C:\MinGW\bin\ranlib.exe libmain.exe.a

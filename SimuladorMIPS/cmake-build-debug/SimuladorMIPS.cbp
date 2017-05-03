@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SimuladorMIPS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimuladorMIPS">
+				<Option output="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/SimuladorMIPS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimuladorMIPS"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimuladorMIPS/fast">
+				<Option output="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/SimuladorMIPS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimuladorMIPS/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.c">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.h">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.c">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.h">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/main.c">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.c">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.h">
+			<Option target="SimuladorMIPS"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.c
+string.h
+-
+auxiliary.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.c
+stdlib.h
+-
+string.h
+-
+intrucoesmips.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/main.c
+stdio.h
+-
+stdlib.h
+-
+simuladormips.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.c
+stdlib.h
+-
+simuladormips.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.h
+intrucoesmips.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.h
+auxiliary.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/auxiliary.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/simuladormips.h
+stdio.h
+-
+intrucoesmips.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/TPs/TP1 - Projeto Montador MIPS/SimuladorMIPS/intrucoesmips.h
+
