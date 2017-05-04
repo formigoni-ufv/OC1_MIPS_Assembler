@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/Montador_Funcoes.c
+string.h
+-
+Montador_Funcoes.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/Montador_Funcoes.h
+misc_functions.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/misc_functions.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/Montador_Funcoes.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/main.c
+Montador_Funcoes.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/Montador_Funcoes.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/misc_functions.c
+misc_functions.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/misc_functions.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/misc_functions.h
+

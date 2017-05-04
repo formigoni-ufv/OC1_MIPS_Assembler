@@ -7,4 +7,4 @@ addi $s2, $s0, 17
 andi $s2, $s0, 17
 ori  $s2, $s0, 17
 sll  $s2, $s0, 17
-slr  $s2, $s0, 42
+slr  $s2, $s0, 17

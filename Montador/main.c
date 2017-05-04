@@ -1,26 +1,39 @@
-#include "Montador_Funcoes.c"
+#include "string.h"
+#include "montadormips.h"
+#include "misc_functions.h"
+#include "instrucoesmips.h"
 
 int main (){
-	FILE* Entrada_asm;
-	FILE* Saida_asm;
-	char instrucao[30], destino[30], parametro1[30], parametro2[30];
+	FILE* INPUT;
+	FILE* OUTPUT;
+	R_TYPE R_SET;
+	I_TYPE I_SET;
+	char op_temp[5];
 
-	Entrada_asm = fopen("mips.asm", "rt");
-	Saida_asm = fopen("saida.txt", "wt");
+	MIPS_RINI(&R_SET);
+	MIPS_IINI(&I_SET);
 
-	do{
-		Assembly_Leitura(&Entrada_asm, instrucao, destino, parametro1, parametro2);
-		Assembly_Montagem(&Saida_asm, instrucao, destino, parametro1, parametro2);
-	}while(!feof(Entrada_asm));
+	INPUT = fopen("mips.asm", "rt");
+	OUTPUT = fopen("saida.txt", "wt");
 
-	fclose(Entrada_asm);
-	fclose(Saida_asm);
+	do {
+		fscanf(INPUT, "%s", op_temp);
+		Remove_Virgula(op_temp);
+
+		if (MIPS_TYPE(op_temp) == 0) {
+			strcpy(R_SET.op, op_temp);
+			Assembler_RREAD(&INPUT, &R_SET);
+			Assembler_RASSEMBLE(&R_SET);
+			fprintf(OUTPUT, "%s %s %s %s %s %s\n", R_SET.op, R_SET.rs, R_SET.rt, R_SET.rd, R_SET.shamt, R_SET.funct);
+		} else {
+			strcpy(I_SET.op, op_temp);
+			Assembler_IREAD(&INPUT, &I_SET);
+			Assembler_IASSEMBLE(&I_SET);
+			fprintf(OUTPUT, "%s %s %s %s\n", I_SET.op, I_SET.rs, I_SET.rt, I_SET.Immediate);
+		}
+	}while(!feof(INPUT));
+
+	fclose(INPUT);
+	fclose(OUTPUT);
 	return 0;
 }
-
-
-// printf("%s ", instrucao);
-// printf("%s ", destino);
-// printf("%s ", parametro1);
-// printf("%s ", parametro2);
-// putchar('\n');

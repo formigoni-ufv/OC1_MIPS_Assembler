@@ -1,5 +1,6 @@
-#include "Montador_Funcoes.h"
 #include <string.h>
+#include "montadormips.h"
+#include "misc_functions.h"
 
 void Assembly_Leitura(FILE** Entrada_asm, char* instrucao, char* destino, char* parametro1, char* parametro2){
 	fscanf(*Entrada_asm, "%s %s %s %s\n", instrucao, destino, parametro1, parametro2);
@@ -16,7 +17,7 @@ void Assembly_Montagem(FILE** Saida_asm, char* instrucao, char* destino, char* p
 	Registrador_Maquina(parametro2, maquina_parametro2);
 
 	if(!strcmp(instrucao, "add")){
-		fprintf(*Saida_asm, "000000s ");
+		fprintf(*Saida_asm, "000000 ");
 		fprintf(*Saida_asm, "%s ", maquina_destino);
 		fprintf(*Saida_asm, "%s ", maquina_parametro1);
 		fprintf(*Saida_asm, "%s ", maquina_parametro2);
@@ -97,16 +98,6 @@ void Assembly_Montagem(FILE** Saida_asm, char* instrucao, char* destino, char* p
 	}
 }
 
-void Remove_Virgula(char* entrada){
-	int i=0;
-
-	while(entrada[i] != ',' && entrada[i] != '\0'){
-		i++;
-	}
-
-	entrada[i] = '\0';
-}
-
 void Registrador_Maquina(char* entrada, char* saida){
 	if(!strcmp(entrada, "$s0")){
 		strcpy(saida, "10000");
@@ -151,21 +142,4 @@ void Registrador_Maquina(char* entrada, char* saida){
 	}
 }
 
-void Inteiro_Binario(int entrada, char* saida, int bin_tam){
-	int r, i, j = 0;
 
-	for(i=bin_tam-1; i>=0; i--){
-
-		r = entrada >> i;
-
-		if(r & 1){
-			saida[j] = '1';
-			j++;
-		}else{
-			saida[j] = '0';
-			j++;
-		}
-	}
-	saida[j] = '\0';
-
-}
