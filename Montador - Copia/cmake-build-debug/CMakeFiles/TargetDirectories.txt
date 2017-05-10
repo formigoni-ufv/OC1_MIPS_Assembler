@@ -1,3 +1,0 @@
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/cmake-build-debug/CMakeFiles/montadormips.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/CCF252 OC I/Trabalhos Praticos/MIPS_Assembler/Montador/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-addi, $s1, $zero, 10
-sub, $s2, $zero, $s1
